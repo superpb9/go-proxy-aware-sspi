@@ -7,11 +7,9 @@ A simple Go module for transparent Windows proxy authentication calling SSPI, si
 go get github.com/superpb9/go-proxy-aware-sspi
 ```
 ## Features
-
 - Transparent Windows proxy authentication using SSPI
-- No explicit credentials required (uses current Windows user context)
-- Similar to curl's "-U :" functionality
-- Clean and simple API
+- No explicit credentials required (uses current Windows user context), similar to curl's "-U :" functionality
+- For study/researching purpose, currently implementing websocket connection as an example
 
 
 ## Usage Example
