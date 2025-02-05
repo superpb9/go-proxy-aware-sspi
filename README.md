@@ -1,11 +1,11 @@
 # go-proxy-aware-sspi
 
-A simple Go module for transparent Windows proxy authentication using SSPI credentials, similar to curl's "-U :" feature.
+A simple Go module for transparent Windows proxy authentication calling SSPI, similar to curl's "-U :" feature.
 
 ## Installation
-
+```
 go get github.com/superpb9/go-proxy-aware-sspi
-
+```
 ## Features
 
 - Transparent Windows proxy authentication using SSPI
@@ -40,7 +40,7 @@ func main() {
 ```
 ## Requirements
 - Windows operating system
-- Go 1.16 or later
+- Go 1.21 or later
 
 ## Dependencies
 - github.com/alexbrainman/sspi/negotiate
