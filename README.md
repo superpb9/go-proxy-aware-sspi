@@ -40,6 +40,7 @@ func main() {
 ```
 ## Requirements
 - Windows operating system
+- A proxy with NTLM authentication support
 - Go 1.21 or later
 
 ## Dependencies
